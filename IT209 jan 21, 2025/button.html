@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="ss">santo nino, santo nino, santos nga ginoo</p>
+    <button id="colorbutton">change background color</button>
+   
+</body>
+<script>
+     document.getElementById('colorbutton').addEventListener("click", function(){
+        document.getElementById('ss').style.color = "blue" ;
+        document.getElementById('colorbutton').style.color = "red"
+        document.getElementById('ss').innerHTML = "kuan siya kanang kuan gani basta oy" ;
+        document.getElementById('ss').style.fontFamily = "Lucida Console" ;
+     });
+</script>
+</html>
